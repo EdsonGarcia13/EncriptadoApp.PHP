@@ -4,7 +4,7 @@ if (!isset($_POST['texto'])) {
 }
 // metodos de encriptado y desencriptado para pruebas
 define('METHOD', 'AES-256-CBC');
-define('SECRET_KEY', '$coppe86@2022');
+define('SECRET_KEY', '$prueba86@2022');
 define('SECRET_IV', '909090');
 class SHA1
 {    static function _encryptacion($cadena)
